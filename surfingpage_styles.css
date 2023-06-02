@@ -31,15 +31,30 @@
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
+    z-index: 1;
 }
 
-.secondparallel{
-    background-image: url(./naail-hussain-QB-1iTMnRUg-unsplash.jpg);
-
+/* .wave-overlay {
+    background-image: url(./fotoonda.png);
     height: 100vh;
     width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    
-}
+    transform: rotate(180deg);
+} */
+
+.secondparallel{
+    background-image: url(./fotoonda.png);
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    z-index: 2;
+  
+} 
